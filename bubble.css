@@ -877,7 +877,7 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
   .logo { width: 110px; height: 110px;  left: 0; top: 0;  }
 
-nav a { font-size: 0.938rem; left: 0;  }
+  nav a { font-size: 0.938rem; left: 0;  }
 
   .search {  display: none;  }  .mgfg, .hndbg{display: none;} .hndbg {  display: none;  }  .noti { display: none;  }
   
@@ -1185,14 +1185,306 @@ nav a { font-size: 0.938rem; left: 0;  }
     font-size: 1.8rem; gap: 1rem; left: 0;
   }
 
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------- */
+/* Mobile view for ≤ 412px (Pixel, Vivo, Oppo etc.) */
+@media (max-width: 412px) {
+
+ 
+  /* -------------------------------------------------------------------------- */
+
+  .logo { width: 70px; height: 70px;  left: 0; top: 0;  }
+
+  nav a {  text-align: center;   flex: 1; font-size: 0.48rem; left: -20px;  }
+
+  .a1{padding: 0.5rem 0.5rem;}
+
+/* -----------------------------------------------------------   */
+
+
+.BTC {  top: 5%;  left: -20%;   scale: 0.3; transform: rotate(30deg);   }
+
+
+/* --------------------------------------------------- */
+
+  #home { height: 100dvh; }
+
+  .hmcon1, .hmcon2 { width: 25.5rem; height: 16.2rem; top: 20%; left: 0;   }
+
+  .hmcon2 { top: 60%; left: 20%;            }
+.hmwrap{  animation: none;  }
+  .bub {  font-size: 6rem;  }
+
+  .bub2 { font-size: 6rem; letter-spacing: -11px; color: #efd8d0; }
+
+  .hmpara {  width: 85%;  font-size: 0.8rem;  line-height: 1.4; top: 5%;  }
+.hmp4{  font-size: 1.1rem;   color: #efd8d0;   left:11%; } 
+
+  .hmbut {  width: 6.575rem; height: 2.8rem; font-size: 1rem; top: 10%; }
+
+  /* ----------------------------------------------------------------------------------------- */
+
+
+   #about { height: 150dvh; top: 0;   }
+  .abtcon1wrap{ animation: scale-in-abt  1s  ease-in-out 0s 1 normal both; }
+
+  .abttit h2 {
+    font-size: 3rem; position: relative;  
+    top: -9.375rem; left: -9.375rem;
+  }
+
+  .abtspli  {    left: 0; width: 15rem; height: 20.375rem; top: -6rem; font-size: 1rem;       }
+.abtli {  font-size: 4rem !important;  }
+
+  .abtpara {  width: 12rem; height: 15rem; font-size: 1rem;   top: -5rem;   }
+
+.abtcon2 {  width: 24rem; left: 28%; top: -15rem; scale: 0.5 ;     }
+
+  .ibx {
+    width: 23rem; height: 17rem; position: relative; 
+    top: 0; left: 0;  margin: 0.1rem auto;  transform: none;   
+  }
+
+.ibx .abtimg {  height: 7rem; width: 22rem; }
+.ibx span { font-size: 2rem; overflow-x: hidden; white-space: wrap;}
+.ibx p { font-size: 1.4rem; line-height: 1.4; white-space: wrap; }
+
+.abtbut{  width: 6rem; height: 2.5rem; font-size: 1rem; top: -3rem; left: 0;      }
+
+
+/* --------------------------------------------------------------------------------- */
+
+ #product { height: 150dvh; top: 0;   }
+
+  .protitle { top: -38%; left: 0; font-size: 2.4rem;   text-align: center;    }
+
+  .prolistcon { top: 30%; background-size: 120vw; background-position: 50% 90%;  }
+
+  .prolist {  margin-top: -65%; text-align: center; scale: 0.8;  }
+
+  .prolist li {
+   width: 17rem; margin: 1rem auto;   font-size: 1.2rem;
+    padding: 1rem 1.5rem; border-radius: 5rem;
+  }
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+  #craft { height: 350dvh; top: 0;  border: 4px solid greenyellow;          }
+
+  .craftmaincon { top: 2rem; }
+
+  .craftcon .cftit { position: relative; top: 3rem; left: 0; text-align: center; }
+  .craftcon .cftit h2 {font-size: 6rem;   }
+  
+  .craftcon .cftit p { font-size: 2rem;   line-height: 1.4; }
+
+  .butcube {
+   width: 11.563rem;  height: 14.4rem; top: 25rem; left: 50%;
+    transform: translateX(-50%); opacity: 0.6;
+  }
+
+/* .fru1{border: 2px solid;  bottom: 500px;} */
+  .fruit {
+    width: 19.2rem; height: 19.2rem;  margin: 0.5rem auto;
+    position: relative; left: 0; top: 2rem;
+  }
+  .craftimgcon {
+    max-width: 100%; width: 86.4rem; height: 4000px;
+    top: 2rem; left: 0; margin: 0 auto; 
+  }
+
+  .craftimgwrap { 
+        max-width: 100%; width: 86.4rem; height: 4000px;
+    flex-wrap: wrap; justify-content: center; align-items: center; gap: 1rem; top: -600px;    
+       }
+
+  .CF {
+   width: 600px; height: 900px; margin: 1rem;
+    border: 4px solid #dfcdc3; border-radius: 15px; background-size: cover;
+  }
+
+/* --------------------------HOVER 1----------------------------------------------------------------------- */
+  .CF:hover   { 
+     height:700px; scale: 0.8  1.8; perspective: -43.75rem;
+     transform: rotatex(74deg) translatey(10rem) translatez(4.688rem);
+  }
+
+  .CF:hover span { font-size: 5rem; scale: 1.5 1.8 1;  }
+
+  .CF h3 { font-size: 5.28rem; }
+  .CF:hover  h3 { top:75rem; left: 20%; font-size: 4.5rem; }
+
+.CF:hover img { scale:0.9 1 0.7;  transform: translateY(-3.125rem) translateZ(10rem);  }
+  
+.CF:hover  .despara { top: 13.75rem; left:-40px; font-size: 3rem;   scale: 0.7 1 1;  }
+
+.CF:hover .cflst {  margin-top: 35px; margin-left: 50px;   }
+.CF:hover .dolsy { font-size: 2.2rem; margin-top: 5px; }
+.CF:hover .dol { font-size: 2.8rem; margin-left: 10px;}
+
+ .CF:hover .plus { width: 2rem; height: 2rem; font-size: 1.4rem; }
+
+/* --------------------------HOVER 2----------------------------------------------------------------------- */
+
+ .CP:hover   { 
+     height:800px; scale: 0.8  1.8; perspective: -43.75rem;
+     transform: rotatex(74deg) translatey(10rem) translatez(4.688rem);
+  }
+
+.CP:hover h3 { left: 11%;  top: 82rem;  font-size: 4.5rem;    text-align: center; }
+
+.CF:hover .pop2 { scale:1.4 1.8 0.5; transform: translateY(-3.125rem) translateZ(9.375rem);  }
+
+.CP:hover  .despara { top: 9.75rem; left:-40px; font-size: 3rem;   scale: 0.68 1 1;  }
+
+/* .CP:hover .cflst { font-size: 2rem; margin-left: 10px;     border: 4px solid red;      } */
+.CP:hover .dolsy { font-size: 1.8rem; margin-top: 7px;     }
+.CP:hover .dol { font-size: 2.5rem; margin-left: 10px;}
+
+ .CP:hover .plus { width: 2rem; height: 2rem; font-size: 1.4rem;  margin-left: 30px; }
+
+/* ------------------------------HOVER 3-------------------------------------------------------------------------------------------------- */
+
+.TD:hover   { 
+     height:900px; scale: 0.8  1.8; perspective: -43.75rem;
+     transform: rotatex(74deg) translatey(10rem) translatez(5.688rem);
+  }
+
+.TD:hover .pop3 {scale:0.8 1 0.7; transform: translateY(-3.125rem) translateZ(9.375rem);  }
+
+.TD:hover h3 { left: 15%;  top: 85.75rem;  text-align: center; }
+
+.TD:hover .despara { top: 3.25rem; font-size: 3.1rem;   scale: 0.7 1 1;  }
+
+
+.TD:hover span{top: 12.875rem; }
+
+/* ----------------------------------------HOVER 4----------------------------------------------------------------------------- */
+
+.MP:hover   { 
+     height:900px; scale: 0.8 1.8; perspective: -43.75rem;
+     transform: rotatex(74deg) translatey(10rem) translatez(5.688rem);
+  }
+
+
+.MP:hover .pop4 {scale:0.8 1 0.4; transform: translateY(-5.313rem) translateZ(11.875rem);  }
+
+.MP:hover h3 { left: 10%;  top: 87.813rem;  text-align: center; }
+
+.MP:hover .despara { top: 6.25rem;  font-size: 3.1rem;   scale: 0.7 1 1;   }
+
+.MP:hover span{ top: 15.188rem; }
+
+.MP:hover .dol {  left:10%;  font-size: 2.5rem; }   
+/* .MP:hover .plus { left: 82%; font-size: 1rem; }    */
+.MP:hover .dolsy { font-size: 1.8rem; margin-top: 7px;     }
+ .MP:hover .plus { width: 2rem; height: 2rem; font-size: 1.4rem; }
+
+/* ------------------------------------------------------------------------------------------ */
+
+  #brewblesip { height: 200dvh; top: 0;      }
+
+  .brewmaincon {  top: 3rem;  }
+
+  .caramel {  width: 9rem; top: 3rem; right:2px;  opacity: 0.5; }
+
+  .bubtea {
+    width: 18rem;  height: auto; top: 105%;  left: 15%;
+    animation: none;  transform: rotate(55deg); scale: 0.7; opacity: 0.7;
+  }
+
+  .brwtitle { font-size: 1.8rem;     }
+
+  .brwp { font-size: 0.9rem;    }
+
+  .brewcon {   margin: -8rem auto;    }
+
+  .brewconwrap {  flex-wrap: wrap;  justify-content: center;  align-items: center; gap: 0rem; scale: 0.8;  }
+
+  .bx { width: 38rem;  height: 15rem;  }
+  .bx .brwtit { font-size: 1.5rem; top: 25%; text-align: center; }
+  .bx p { font-size: 1.1rem; top: 40%; }
+
+  .brewicon { width: 0.2rem; height: 0.2rem;  margin: 0 auto; }
+   .brewicon .bwic {  font-size: 5rem;  top: -1rem; }
+
+  /* --------------------------------------------------------------------------------- */
+
+
+  #review {
+    height: 95vh; top: 0; padding: 2rem;
+    background: rgb(244, 244, 224);           
+  }
+.revcon{ top: -150px;    }
+
+  .revtitle { font-size: 3rem;   }
+
+  .revpara {  font-size: 1.2rem;  }
+
+  .rvwcon{ width: 100%; height: 250px; margin-top: -5rem;  }
+  .rvwwrap{ width: 100%; height: 200px; scale: 0.4 0.4 0.5; overflow: visible;   margin-top: -5rem;     }
+
+  .rev {  width: 600px; height: 330px; margin: 1rem; padding: 1rem;  top: 0; }
+
+  .revname {  font-size: 4.8rem; margin-left: 0; text-align: center; }
+
+  .star { font-size: 2.2rem; margin-left: -85px; }
+
+  .revpara1 { font-size: 2rem; }
+
+
+  .revpic {   
+    width: 12.5rem;  height: 12.5rem; 
+    position: absolute; top: -3rem; left: 2%;
+  }
+
+/* -------------------------------------------------------------------------------- */
+
+
+  #contact {
+    height: auto; top: 0; padding: 2rem;  text-align: center;
+    animation: scale-in-abt  1s  ease-in-out 0s 1 normal both;           
+  }
+
+  .ctcontainer {  flex-direction: column;  align-items: center; gap: 2rem;  top: 0; }
+
+  .ctlogo11 { width: 8rem;  height: auto; left: 0;  top: 0; margin: 0 auto; }
+
+  .ctpara { font-size: 1.3rem; line-height: 1.4; left: 0;  top: 0; margin: 0 auto; }
+
+  .ct { top: 0; margin-top: -1rem; }
+
+  .ctcon2 {
+      font-size: 2rem; text-align: center;    margin-top: -3rem;
+    flex-direction: row;  justify-content: center;  
+    gap: 2rem;  line-height: 1.6; scale: 0.44;          
+  }
+  .ctcon2 ul li:nth-child(1) { font-size: 2.88rem; margin-bottom: 0.7rem; }
+
+  .alright {
+    max-width: 100%;  width: 100%;              
+      height: auto;   scale: 1.16;
+    top: 0; left: 0;  gap: 0rem;  margin-top: -3rem;
+    flex-direction: row;  text-align: center;
+    padding: 1.5rem 0;  font-size: 0.6rem;
+    border-top: 1px solid white;             
+  }
+  .icons {
+    width: auto; justify-content: center;  margin: 0 auto;
+    font-size: 1rem; gap: 0.4rem; left: 0;
+  }
+
+
 
 
 
 
 }
-
-
-
 
 
 

@@ -4,7 +4,7 @@
 
 html,body{  scroll-behavior: smooth;}
 body{
-      width: 100%;  height: 720vh;
+      /* width: 100%;  height: 720vh; */
       overflow-x: hidden;   overflow-y: scroll;
       scroll-snap-type: y mandatory;
       background: linear-gradient(to bottom, #f5f0e6, #fbfbfa);
@@ -135,7 +135,7 @@ nav{
 } 
 
 nav a{ 
-     position: relative; font-size: 14px; left: -11%;
+    position: relative; font-size: 14px; left: -11%;
     text-decoration: none;  color: black;
     font-weight: bold; white-space: nowrap;
 }
@@ -220,7 +220,7 @@ height: 100vh;  position: relative; overflow: visible;
  background: linear-gradient(to bottom, #f5f0e6, #fbfbfa);
 }
 
-#home svg{
+#home svg{ 
   position: absolute; bottom: 0; left: 0;
   width: 100%;  height: 100%;
 }
@@ -354,6 +354,8 @@ height: 100vh;  position: relative; overflow: visible;
             p { font-size: 0.875rem; white-space: nowrap;} 
 }
 
+.ibx22{  display: none; }
+
 .ibx1 {z-index: 0;  top: 22%;  left: 26%; } .ibx2 {z-index: -1; top: 45%; left: 45%; transform: rotate(-25deg); } .ibx3 { z-index: -2; top: 65%; left: 64%; transform: rotate(-28deg); }
 .ibx4 {z-index: -3; top: 5%;  left: 54%; transform: rotate(5deg); } .ibx5 {z-index: -4;  top: -5%;  left: 70%; transform: rotate(15deg); }
 
@@ -462,7 +464,8 @@ height: 100vh;  position: relative; overflow: visible;
 
 .craftimgcon{
         max-width: 75rem; width: 100%; height: 18.75rem;   
-        position: relative; top: 9.375rem; left: 10%;
+        position: relative; top: 9.375rem; left: 10%; 
+        /* border: 2px solid; */
 }
 
  @keyframes fadeInUp {  0% { opacity: 0; }  100% {  opacity: 1; transform: none;  }     } 
@@ -473,6 +476,7 @@ height: 100vh;  position: relative; overflow: visible;
     display: flex; justify-content: space-between;
      animation: fadeInUp1 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0s 1  both; 
      animation-timeline: view(auto);
+     /* border: 2px solid red; */
 }
 
 @keyframes fadeInUp1 {    0% { transform: translateY(100%);  }  100% { transform: none; }  }
@@ -539,7 +543,7 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
                 font-size: 1rem; font-weight: bold; 
         }
 }
-
+/* ---------------------------------HOVER 1------------------------------------------------------------------------------------------- */
 .CF:hover .dol {  position: absolute; left:8%;  font-size: 1.4rem; }   .CF:hover .dolsy { position: absolute;  margin-left: -10%; top: 0.125rem; font-size: 1.1rem; }
 
  .CF:hover .plus {  
@@ -562,11 +566,14 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
 .CF:hover h3, .CF:hover .desp {  opacity: 1;  transform: translateZ(15.5rem); }
 
+/* ---------------------------------------HOVER 2------------------------------------------------------------------------- */
 .CP{  background-image: url('TEA/caramelmilk.jpg'); }
+
+.CP:hover h3 { left: 10%;  top: 84.375rem;  text-align: center; }
 
 .CF:hover .pop2 { scale:1.6 4 0.23; transform: translateY(-3.125rem) translateZ(9.375rem);  }
 
-.CP:hover h3 { left: 10%;  top: 84.375rem;  text-align: center; }
+/* -----------------------------------HOVER 3---------------------------------------------------------------------------------- */
 
 .TD { background-image: url('TEA/purple.jpg');  }
 
@@ -577,6 +584,7 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 .TD:hover .despara { top: 16.25rem;   scale: 1 2.9 1; }
 
 .TD:hover span{top: 21.875rem; }
+/* ----------------------------------------HOVER 4----------------------------------------------------------------------------- */
 
 .MP{  background-image: url('TEA/mangomilk.jfif');  }
 
@@ -839,6 +847,10 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
    position: relative;  left: 47%;
 }
 
+
+
+
+
 /* -------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 
@@ -848,7 +860,7 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
 @media (max-width: 768px) {
     
-    body{ overflow-x: hidden; }  
+    html,body{margin: 0; padding: 0; width: 100%; overflow-x: hidden; }  
     .LRB{  display: none;  }
   
   
@@ -861,11 +873,11 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
   
   /* -------------------------------------------------------------------------- */
 
-  nav { height: 6vh;  overflow: hidden; }
+  nav {   overflow: hidden;}
 
   .logo { width: 110px; height: 110px;  left: 0; top: 0;  }
 
-  nav a { font-size: 1vh; left: 0;  }
+nav a { font-size: 0.938rem; left: 0;  }
 
   .search {  display: none;  }  .mgfg, .hndbg{display: none;} .hndbg {  display: none;  }  .noti { display: none;  }
   
@@ -879,7 +891,7 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
   #home { height: 100dvh; }
 
-  .hmcon1, .hmcon2 {  width: 70vw; height: 30vh; top: 30%; left: 8%;    }
+  .hmcon1, .hmcon2 { width: 67.2rem; height: 16.2rem; top: 30%; left: 8%;   }
 
   .hmcon2 { top: 60%; left: 25%; }
 .hmwrap{  animation: none;  }
@@ -887,49 +899,51 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
   .bub2 { font-size: 8rem; letter-spacing: -11px; color: #efd8d0; }
 
-  .hmpara {  width: 85%; font-size: 25px;  line-height: 1.4; top: 5%;  }
-.hmp4{  font-size: 30px;   color: #efd8d0;   left:5%; }
+  .hmpara {  width: 85%;  font-size: 1.75rem;  line-height: 1.4; top: 5%;  }
+.hmp4{  font-size: 1.75rem;   color: #efd8d0;   left:5%; } 
 
-  .hmbut {  width: 28%; height: 4vh;  font-size: 23px; top: 25%; }
+  .hmbut {  width: 9.375rem; height: 3.438rem; font-size: 1.438rem; top: 40%; }
 
   /* ----------------------------------------------------------------------------------------- */
 
-   #about { height: 100dvh; top: 0; }
+   #about { height: 100dvh; top: 0;  }
   .abtcon1wrap{ animation: scale-in-abt  1s  ease-in-out 0s 1 normal both; }
 
   .abttit h2 {
-    font-size: 5.5rem; position: relative;  top: -150px; left: -285px;
+    font-size: 5rem; position: relative;  
+    top: -9.375rem; left: -14.375rem;
     text-align: center; white-space: nowrap;
   }
 
   .abtspli  {
-    left: 0; width:60vw;  height: 30vh; top: -5rem; font-size: 2rem;
+    left: 0; width: 25rem; height: 34.375rem; top: -5rem; font-size: 1rem;
     animation: scale-in-abtleft  0.8s  ease-in-out 0.5s 1 normal both;      
   }
-.abtli {  font-size: 6.5rem !important;  }
+.abtli {  font-size: 5.5rem !important;  }
+
   .abtpara {
-    width:52vw; height: 25vh; font-size: 1.8rem;   line-height: 1.8;     left: 0;    
-    animation: scale-in-abtleft  0.8s  ease-in-out 0.8s 1 normal both;      
+   width: 18.75rem; height: 18.75rem; font-size: 1.8rem;   line-height: 1.8;     left: 0;  top: -5rem; 
+    animation: scale-in-abtleft  0.8s  ease-in-out 0.8s 1 normal both;     
   }
 
 .abtcon2 {
-    width: 90vw;  height: auto; position: absolute;
-    left: 30%; top: 2rem; scale: 0.8;
+   width: 31.25rem;  height: 93.75rem; position: absolute;
+    left: 35%; top: 2rem; scale: 0.8;
     flex-direction: column; gap: 1rem;
-    animation: scale-in-abtRIGHT  0.8s  ease-in-out 0s 1 normal both;
+    animation: scale-in-abtRIGHT  0.8s  ease-in-out 0s 1 normal both;               
   }
 
   .ibx {
-    width: 55vw;  height: 18vh; position: relative;
-    top: 0; left: 0;  margin: 1rem auto;
+    width: 28.125rem; height: 20rem; position: relative; 
+    top: 0; left: 0;  margin: 0.3rem auto;  transform: none;  border:2px solid yellow;  
   }
-.ibx .abtimg {  height: 10vh; width: 52vw; }
-.ibx span { font-size: 2rem;  }
-.ibx p { font-size: 3.3vw;  }
+
+.ibx .abtimg {  height: 8.125rem; width: 26.25rem; }
+.ibx span { font-size: 2.2rem; overflow-x: hidden; white-space: wrap;}
+.ibx p { font-size: 1.75rem;  }
 
 .abtbut{
-   width: 28%;  height: 4vh;
-   font-size: 30px;  top: 150px; left: 0;
+  width: 9.375rem; height: 3.438rem; font-size: 1.75rem; top: 12.5rem; left: 0;
   animation: scale-in-abtleft  0.8s  ease-in-out 1s 1 normal both;      
 }
  @keyframes scale-in-abtleft {  0% {  transform: translateX(-100%); }  100% { transform: translateX(0); } }
@@ -938,17 +952,17 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
 /* --------------------------------------------------------------------------------- */
 
-  #product { height: 100dvh; top: 0; }
+  #product { height: 100dvh; top: 0;  }
 
-  .protitle { top: -22%; left: 0; font-size: 8vw; text-align: center; }
+  .protitle { top: -22%; left: 0; font-size: 4.4rem;   text-align: center;    }
 
   .prolistcon { top: 30%; background-size: 120vw; background-position:center;  }
 
-  .prolist { font-size: 2rem;  margin-top: -40%; text-align: center;  }
+  .prolist {  margin-top: -40%; text-align: center;  }
 
   .prolist li {
-    width: 50vw; margin: 2rem auto;font-size: 1.8rem;
-    padding: 0.5rem 1rem; border-radius: 5rem;
+   width: 28rem; margin: 1.5rem auto;   font-size: 2rem;
+    padding: 1rem 1.5rem; border-radius: 5rem;
   }
 
   .pro {
@@ -956,161 +970,226 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
     margin: 1rem auto; transform: none; animation: none; 
   }
 
+
 /* ---------------------------------------------------------------------------------- */
 
 
-  #craft { height: 200dvh; top: 0; }
+  #craft { height: 350dvh; top: 0; }
 
   .craftmaincon { top: 2rem; }
 
-  .craftcon .cftit { position: relative; top: 0; left: 0; text-align: center; }
-  .craftcon .cftit h2 { font-size: 8vw; }
+  .craftcon .cftit { position: relative; top: 3rem; left: 0; text-align: center; }
+  .craftcon .cftit h2 {font-size: 6rem;   }
   
-  .craftcon .cftit p { font-size: 3.5vw; line-height: 1.4; }
+  .craftcon .cftit p { font-size: 2rem;   line-height: 1.4; }
 
   .butcube {
-    width: 12vw; height: 15vw; top: 9rem; left: 50%;
-    transform: translateX(-50%);
+   width: 11.563rem;  height: 14.4rem; top: 25rem; left: 50%;
+    transform: translateX(-50%); opacity: 0.6;
   }
 
+/* .fru1{border: 2px solid;  bottom: 500px;} */
   .fruit {
-    width: 20vw; height: 20vw;     margin: 0.5rem auto;
-    position: relative; left: 0; top: 1rem;
+    width: 19.2rem; height: 19.2rem;  margin: 0.5rem auto;
+    position: relative; left: 0; top: 2rem;
   }
   .craftimgcon {
-    max-width: 100%; width: 90vw; height: auto;
-    top: 2rem; left: 0; margin: 0 auto;
+    max-width: 100%; width: 86.4rem; height: 4000px;
+    top: 2rem; left: 0; margin: 0 auto; 
   }
 
-  .craftimgwrap { flex-wrap: wrap; justify-content: center; align-items: center; gap: 1rem; top: 0; }
+  .craftimgwrap { 
+        max-width: 100%; width: 86.4rem; height: 4000px;
+    flex-wrap: wrap; justify-content: center; align-items: center; gap: 1rem; top: -600px;    
+       }
 
   .CF {
-    width: 40vw; height: 30vh; margin: 1rem;
+   width: 600px; height: 900px; margin: 1rem;
     border: 4px solid #dfcdc3; border-radius: 15px; background-size: cover;
   }
-  .CF span { font-size: 3vw; }
-  .CF h3 { font-size: 5.5vw; }
-  .CF:hover  h3 { top:1320px; left: 20%; font-size: 2rem; }
 
-  .CF:hover  .despara { top: 220px; font-size: 15px;   scale: 1.2 3 1;  }
+/* --------------------------HOVER 1----------------------------------------------------------------------- */
+  .CF:hover   { 
+     height:700px; scale: 0.8  1.8; perspective: -43.75rem;
+     transform: rotatex(74deg) translatey(10rem) translatez(4.688rem);
+  }
+
+  .CF:hover span { font-size: 5rem; scale: 1.5 1.8 1;  }
+
+  .CF h3 { font-size: 5.28rem; }
+  .CF:hover  h3 { top:75rem; left: 20%; font-size: 4.5rem; }
+
+.CF:hover img { scale:0.9 1 0.7;  transform: translateY(-3.125rem) translateZ(10rem);  }
   
+.CF:hover  .despara { top: 13.75rem; left:-40px; font-size: 3rem;   scale: 0.7 1 1;  }
+
+.CF:hover .cflst {  margin-top: 35px; margin-left: 50px;   }
+.CF:hover .dolsy { font-size: 2.2rem; margin-top: 5px; }
+.CF:hover .dol { font-size: 2.8rem; margin-left: 10px;}
+
+ .CF:hover .plus { width: 2rem; height: 2rem; font-size: 1.4rem; }
+
+/* --------------------------HOVER 2----------------------------------------------------------------------- */
+
+ .CP:hover   { 
+     height:800px; scale: 0.8  1.8; perspective: -43.75rem;
+     transform: rotatex(74deg) translatey(10rem) translatez(4.688rem);
+  }
+
+.CP:hover h3 { left: 11%;  top: 82rem;  font-size: 4.5rem;    text-align: center; }
+
+.CF:hover .pop2 { scale:1.4 1.8 0.5; transform: translateY(-3.125rem) translateZ(9.375rem);  }
+
+.CP:hover  .despara { top: 9.75rem; left:-40px; font-size: 3rem;   scale: 0.68 1 1;  }
+
+/* .CP:hover .cflst { font-size: 2rem; margin-left: 10px;     border: 4px solid red;      } */
+.CP:hover .dolsy { font-size: 1.8rem; margin-top: 7px;     }
+.CP:hover .dol { font-size: 2.5rem; margin-left: 10px;}
+
+ .CP:hover .plus { width: 2rem; height: 2rem; font-size: 1.4rem;  margin-left: 30px; }
+
+/* ------------------------------HOVER 3-------------------------------------------------------------------------------------------------- */
+
+.TD:hover   { 
+     height:900px; scale: 0.8  1.8; perspective: -43.75rem;
+     transform: rotatex(74deg) translatey(10rem) translatez(5.688rem);
+  }
+
+.TD:hover .pop3 {scale:0.8 1 0.7; transform: translateY(-3.125rem) translateZ(9.375rem);  }
+
+.TD:hover h3 { left: 15%;  top: 85.75rem;  text-align: center; }
+
+.TD:hover .despara { top: 3.25rem; font-size: 3.1rem;   scale: 0.7 1 1;  }
+
+
+.TD:hover span{top: 12.875rem; }
+
+/* ----------------------------------------HOVER 4----------------------------------------------------------------------------- */
+
+.MP:hover   { 
+     height:900px; scale: 0.8 1.8; perspective: -43.75rem;
+     transform: rotatex(74deg) translatey(10rem) translatez(5.688rem);
+  }
+
+
+.MP:hover .pop4 {scale:0.8 1 0.4; transform: translateY(-5.313rem) translateZ(11.875rem);  }
+
+.MP:hover h3 { left: 10%;  top: 87.813rem;  text-align: center; }
+
+.MP:hover .despara { top: 6.25rem;  font-size: 3.1rem;   scale: 0.7 1 1;   }
+
+.MP:hover span{ top: 15.188rem; }
+
+.MP:hover .dol {  left:10%;  font-size: 2.5rem; }   
+/* .MP:hover .plus { left: 82%; font-size: 1rem; }    */
+.MP:hover .dolsy { font-size: 1.8rem; margin-top: 7px;     }
+ .MP:hover .plus { width: 2rem; height: 2rem; font-size: 1.4rem; }
+
 /* ------------------------------------------------------------------------------------------ */
 
-  #brewblesip { height: 130dvh; top: 0; }
+  #brewblesip { height: 200dvh; top: 0;         }
 
   .brewmaincon {  top: 3rem;  }
 
-  .caramel {  width: 20vw;  top: 3rem; left: auto; right: 5%;  opacity: 0.7; }
+  .caramel {  width: 19.2rem; top: 3rem; left: auto; right: 5%;  opacity: 0.5; }
 
   .bubtea {
-    width: 35vw;  height: auto; top: 105%;  left: 28%;
-    animation: none;  transform: rotate(55deg); scale: 1.2; opacity: 1;
+   width: 33.6rem;  height: auto; top: 100%;  left: 15%;
+    animation: none;  transform: rotate(55deg); scale: 0.8; opacity: 0.7;
   }
 
   .brwtitle {
-    font-size: 6.3vw; text-align: center; top: 1rem; margin-bottom: 4%;
-    animation: scale-in-abt  0.8s  ease-in-out 0s 1 normal both;
+   font-size: 5rem; text-align: center; top: 1rem; margin-bottom: 4%;
+    animation: scale-in-abt  0.8s  ease-in-out 0s 1 normal both;             
   }
 
   .brwp {
-    font-size: 3.5vw;  scale: 1.0 1.2 1.5;
+   font-size: 1.6rem;  scale: 1.0 1.2 1.5;
     margin-top: 3rem; text-align: center; line-height: 1.8;
-    animation: scale-in-abt  1s  ease-in-out 0.8s 1 normal both;
+    animation: scale-in-abt  1s  ease-in-out 0.8s 1 normal both;                     
   }
 
-  .brewcon {  max-width: 100%;  width: 90vw;  margin: 2rem auto;  left: 0;  }
+  .brewcon {  max-width: 100%;  width: 86.4rem;  margin: 2rem auto;  left: 0;  }
 
   .brewconwrap {  flex-wrap: wrap;  justify-content: center;  align-items: center;  gap: 1rem;  }
 
-  .bx { width: 60vw;  height: 20vh; margin: 1rem; padding: 1rem;  }
-  .bx .brwtit { font-size: 3.5vw; top: 0; text-align: center; }
-  .bx p { font-size: 3.5vw; top: 20%; }
+  .bx { width: 38rem;  height: 34.375rem; margin: 1rem; padding: 1rem;  }
+  .bx .brwtit { font-size: 2.8rem; top: 0; text-align: center; }
+  .bx p { font-size: 2.5rem; top: 20%; }
 
-  .brewicon { width: 20vw;  height: 10vw; margin: 0 auto; }
-   .brewicon .bwic {  font-size: 10vw;  top: 0; }
+  .brewicon { width: 19.2rem; height: 9.6rem;  margin: 0 auto; }
+   .brewicon .bwic {  font-size: 9.6rem;  top: 0; }
 
   /* --------------------------------------------------------------------------------- */
 
   #review {
-    height: 50vh; top: 0; padding: 2rem;
-    background: rgb(244, 244, 224);
+    height: 85vh; top: 0; padding: 2rem;
+    background: rgb(244, 244, 224);          
   }
-.revcon{ top: -150px; animation: scale-in-abt  1s  ease-in-out 0s 1 normal both;  }
+.revcon{ top: -150px; animation: scale-in-abt  1s  ease-in-out 0s 1 normal both;    }
 
-  .revtitle { font-size: 6.5vw; top: 0; text-align: center; }
+  .revtitle { font-size: 5.5rem; top: 0; text-align: center;         }
 
-  .revpara {  font-size: 4vw; line-height: 1.6; top: 1rem;  text-align: center; }
+  .revpara {  font-size: 2.5rem; line-height: 1.6; top: 1rem;  text-align: center; }
 
-  .rev {  width: 60vw;  margin: 1rem; padding: 1rem;  top: 0; }
+  .rvwcon{ width: 100%; height: auto;  }
+  .rvwwrap{ width: 100%; height: auto; scale: 0.758 0.7 0.9; overflow: visible; }
 
-  .revname {  font-size: 5vw; margin-left: -35px; text-align: center; }
+  .rev {  width: 600px; height: 330px; margin: 1rem; padding: 1rem;  top: 0; }
 
-  .star { font-size: 3vw; margin-left: -35px; }
+  .revname {  font-size: 4.8rem; margin-left: 0; text-align: center; }
 
-  .revpara1 { font-size: 2.4vw; }
+  .star { font-size: 2.2rem; margin-left: -85px; }
+
+  .revpara1 { font-size: 2rem; }
+
 
   .revpic {   
-    width: 15vw;  height: 15vw;
-    position: absolute; top: -1rem; left: 2%;
+    width: 12.5rem;  height: 12.5rem; 
+    position: absolute; top: -3rem; left: 2%;
   }
 
 /* -------------------------------------------------------------------------------- */
 
+
   #contact {
     height: auto; top: 0; padding: 2rem;  text-align: center;
-    animation: scale-in-abt  1s  ease-in-out 0s 1 normal both;
+    animation: scale-in-abt  1s  ease-in-out 0s 1 normal both;                  
   }
 
   .ctcontainer {  flex-direction: column;  align-items: center; gap: 2rem;  top: 0; }
 
-  .ctlogo11 { width: 20vw;  height: auto; left: 0;  top: 0; margin: 0 auto; }
+  .ctlogo11 { width: 19.2rem;  height: auto; left: 0;  top: 0; margin: 0 auto; }
 
-  .ctpara { font-size: 3.3vw; line-height: 1.4; left: 0;  top: 0; margin: 0 auto; }
+  .ctpara { font-size: 2.5rem; line-height: 1.4; left: 0;  top: 0; margin: 0 auto; }
 
   .ct { top: 0; margin-top: 1rem; }
 
   .ctcon2 {
-    width: 90vw;  font-size: 2.5vw; text-align: center;
+      font-size: 2rem; text-align: center;
     flex-direction: row;  justify-content: center;  
-    gap: 2rem;  line-height: 1.6; margin: 0 auto;
+    gap: 2rem;  line-height: 1.6; scale: 0.75;       
   }
-  .ctcon2 ul li:nth-child(1) { font-size: 3vw; margin-bottom: 0.5rem; }
+  .ctcon2 ul li:nth-child(1) { font-size: 2.88rem; margin-bottom: 0.7rem; }
 
   .alright {
-    max-width: 100%;  width: 90vw;  height: auto;
-    top: 0; left: 0;  gap: 1rem; margin: 0 auto;
+    max-width: 100%;  width: 100%;
+      height: auto;   scale: 1.1;
+    top: 0; left: 0;  gap: 0rem; 
     flex-direction: row;  text-align: center;
-    padding: 1rem 0;  font-size: 2.1vw;
-    border-top: 1px solid white;  
+    padding: 1.5rem 0;  font-size: 1.2rem;
+    border-top: 2px solid white;             
   }
   .icons {
     width: auto; justify-content: center;  margin: 0 auto;
-    font-size: 3vw; gap: 1rem; left: 0;
+    font-size: 1.8rem; gap: 1rem; left: 0;
   }
 
 
+
+
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

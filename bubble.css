@@ -1277,7 +1277,7 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
   .craftmaincon { top: 2rem; }
 
-  .craftcon .cftit { position: relative; top: 3rem; left: 0; text-align: center;               border: 2px solid;            }
+  .craftcon .cftit { position: relative; top: 3rem; left: 0; text-align: center;            }
   .craftcon .cftit h2 {font-size: 4rem;  margin-top: -2rem;  }
   
   .craftcon .cftit p { font-size: 1rem;   line-height: 1.4; }
@@ -1346,7 +1346,7 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
 .CF:hover .pop2 { scale:1.1 5 0.3; transform: translateY(-3.125rem) translateZ(9.375rem);  }
 
-.CP:hover  .despara { top: 20.75rem; left:-40px; font-size: 1.3rem;   scale: 0.587 2 1; }
+.CP:hover  .despara { top: 20.75rem; left:-40px; font-size: 1rem;   scale: 0.487 2 1; }
 
 .CP:hover .cflst {  margin-top: -150px;  margin-left: -25px;   scale: 0.8 1.5 1;    }
 .CP:hover .dolsy { font-size: 1rem; margin-top: 3px;     }
@@ -1369,7 +1369,7 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
 .TD:hover h3 { left: 15%;  top: 82.75rem;  font-size: 1.6rem;     text-align: center; }
 
-.TD:hover .despara { top: 12.25rem; font-size: 1.3rem;    scale: 0.587 2 1;  }
+.TD:hover .despara { top: 12.25rem; font-size: 1rem;   scale: 0.487 2 1; }
 
 .TD:hover .cflst {  margin-top: -20px;  margin-left: -25px;   scale: 0.8 1.5 1;    }
 
@@ -1399,7 +1399,7 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
 .MP:hover h3 { left: 10%;  top: 80.813rem;  font-size: 1.4rem;    text-align: center; }
 
-.MP:hover .despara { top: 14.25rem;  font-size: 1.2rem;   scale: 0.587 2 1;  }
+.MP:hover .despara { top: 14.25rem; font-size: 1rem;   scale: 0.487 2 1;  }
 
 .MP:hover span{ top: 15.188rem; }
 .MP:hover .cflst {  margin-top: -80px;  margin-left: -25px;   scale: 0.8 1.5 1;    }
@@ -1407,6 +1407,7 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 .MP:hover .dol {  left:10%;  font-size: 1.5rem; }   
 .MP:hover .dolsy { font-size: 1.3rem; margin-top: -2px;     }
  .MP:hover .plus { width: 1.5rem; height: 1.5rem; font-size: 1rem;  margin-left: 30px; }
+ 
 
 /* ------------------------------------------------------------------------------------------ */
 

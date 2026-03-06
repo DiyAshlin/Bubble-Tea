@@ -1220,7 +1220,7 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
   .bub2 {  font-size: 5rem; letter-spacing: -9px; color: #efd8d0; }
 
-  .hmpara {  width: 85%;  font-size: 0.8rem;  line-height: 1.4; top: 5%; margin-left: 5px; }
+  .hmpara {  width: 85%;  font-size: 0.7rem;  line-height: 1.4; top: 5%; margin-left: 5px; }
 .hmp4{  font-size: 0.9rem;   color: #efd8d0;   left:11%; } 
 
   .hmbut {  width: 6.575rem; height: 2.8rem; font-size: 1rem; top: 10%; margin-left: 5px;}
@@ -1273,116 +1273,136 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
 
 
-  #craft { height: 350dvh; top: 0;  border: 4px solid greenyellow;          }
+  #craft { height: 420dvh; top: 0;    }
 
   .craftmaincon { top: 2rem; }
 
   .craftcon .cftit { position: relative; top: 3rem; left: 0; text-align: center; }
-  .craftcon .cftit h2 {font-size: 6rem;   }
+  .craftcon .cftit h2 {font-size: 4rem;  margin-top: -2rem;  }
   
-  .craftcon .cftit p { font-size: 2rem;   line-height: 1.4; }
+  .craftcon .cftit p { font-size: 1rem;   line-height: 1.4; }
 
   .butcube {
-   width: 11.563rem;  height: 14.4rem; top: 25rem; left: 50%;
+   width: 8.563rem;  height: 8.4rem; top: 20rem; left: 50%;
     transform: translateX(-50%); opacity: 0.6;
   }
 
 /* .fru1{border: 2px solid;  bottom: 500px;} */
   .fruit {
-    width: 19.2rem; height: 19.2rem;  margin: 0.5rem auto;
+    width: 13.2rem; height: 15.2rem;  margin: 0.5rem auto;
     position: relative; left: 0; top: 2rem;
   }
+
   .craftimgcon {
-    max-width: 100%; width: 86.4rem; height: 4000px;
+    max-width: 100%; width: 86.4rem; height: 1600px;
     top: 2rem; left: 0; margin: 0 auto; 
   }
 
   .craftimgwrap { 
-        max-width: 100%; width: 86.4rem; height: 4000px;
-    flex-wrap: wrap; justify-content: center; align-items: center; gap: 1rem; top: -600px;    
+        max-width: 100%; width: 86.4rem; height: 1600px;  
+    flex-wrap: wrap; justify-content: center; align-items: center;  top:-230px;    
        }
 
   .CF {
-   width: 600px; height: 900px; margin: 1rem;
-    border: 4px solid #dfcdc3; border-radius: 15px; background-size: cover;
+   width: 200px; height: 300px; margin-top: -1rem;
+    border: 4px solid #dfcdc3; border-radius: 15px; background-size: fill;
   }
+  .CF h3 { font-size: 1.8rem;white-space: nowrap;}
 
 /* --------------------------HOVER 1----------------------------------------------------------------------- */
-  .CF:hover   { 
-     height:700px; scale: 0.8  1.8; perspective: -43.75rem;
+  
+.CF:hover   { 
+     height:700px; scale: 1.5 1; perspective: -43.75rem;    margin-top: -10rem;
      transform: rotatex(74deg) translatey(10rem) translatez(4.688rem);
   }
 
   .CF:hover span { font-size: 5rem; scale: 1.5 1.8 1;  }
+  .CF:hover  h3 { top:75rem; left: 15%; font-size: 1.6rem; }
 
-  .CF h3 { font-size: 5.28rem; }
-  .CF:hover  h3 { top:75rem; left: 20%; font-size: 4.5rem; }
-
-.CF:hover img { scale:0.9 1 0.7;  transform: translateY(-3.125rem) translateZ(10rem);  }
+.CF:hover img { scale:0.6 2 0.6;  transform: translateY(-3.125rem) translateZ(10rem);  }
   
-.CF:hover  .despara { top: 13.75rem; left:-40px; font-size: 3rem;   scale: 0.7 1 1;  }
+.CF:hover  .despara { top: 12.75rem; left:-47px; font-size: 1.2rem;   scale: 0.587 2 1;  }
 
-.CF:hover .cflst {  margin-top: 35px; margin-left: 50px;   }
-.CF:hover .dolsy { font-size: 2.2rem; margin-top: 5px; }
-.CF:hover .dol { font-size: 2.8rem; margin-left: 10px;}
+.CF:hover .cflst {  margin-top: 35px; margin-left: 5px;   }
+.CF:hover .dolsy { font-size: 1rem; margin-top: 3px; margin-left: -4px; }
+.CF:hover .dol { font-size: 1.3rem; margin-left: 5px;}
 
- .CF:hover .plus { width: 2rem; height: 2rem; font-size: 1.4rem; }
+ .CF:hover .plus { width: 1rem; height: 1rem; font-size: 0.6rem; }
 
 /* --------------------------HOVER 2----------------------------------------------------------------------- */
 
+
+/* .CP{ margin-top: -60rem; } */
+
+
  .CP:hover   { 
-     height:800px; scale: 0.8  1.8; perspective: -43.75rem;
+     height:800px; scale: 1.5  1; perspective: -43.75rem;   margin-top: -5rem;
      transform: rotatex(74deg) translatey(10rem) translatez(4.688rem);
   }
 
-.CP:hover h3 { left: 11%;  top: 82rem;  font-size: 4.5rem;    text-align: center; }
+.CP:hover h3 { left: 11%;  top: 82rem;  font-size: 1.6rem;    text-align: center; }
 
-.CF:hover .pop2 { scale:1.4 1.8 0.5; transform: translateY(-3.125rem) translateZ(9.375rem);  }
+.CF:hover .pop2 { scale:1.1 5 0.3; transform: translateY(-3.125rem) translateZ(9.375rem);  }
 
-.CP:hover  .despara { top: 9.75rem; left:-40px; font-size: 3rem;   scale: 0.68 1 1;  }
+.CP:hover  .despara { top: 20.75rem; left:-40px; font-size: 1.3rem;   scale: 0.587 2 1; }
 
-/* .CP:hover .cflst { font-size: 2rem; margin-left: 10px;     border: 4px solid red;      } */
-.CP:hover .dolsy { font-size: 1.8rem; margin-top: 7px;     }
-.CP:hover .dol { font-size: 2.5rem; margin-left: 10px;}
+.CP:hover .cflst {  margin-top: -150px;  margin-left: -25px;   scale: 0.8 1.5 1;    }
+.CP:hover .dolsy { font-size: 1rem; margin-top: 3px;     }
+.CP:hover .dol { font-size: 1.3rem; margin-left: 10px;}    
 
- .CP:hover .plus { width: 2rem; height: 2rem; font-size: 1.4rem;  margin-left: 30px; }
+ .CP:hover .plus { width: 1rem; height: 1rem; font-size: 0.6rem;  margin-left: 30px; }
 
 /* ------------------------------HOVER 3-------------------------------------------------------------------------------------------------- */
 
+
+
+/* .TD{ margin-top: -100rem; } */
+
 .TD:hover   { 
-     height:900px; scale: 0.8  1.8; perspective: -43.75rem;
+  height:800px; scale: 1.5 1; perspective: -43.75rem;     margin-top: -10rem;
      transform: rotatex(74deg) translatey(10rem) translatez(5.688rem);
   }
 
-.TD:hover .pop3 {scale:0.8 1 0.7; transform: translateY(-3.125rem) translateZ(9.375rem);  }
+.TD:hover .pop3 { scale:0.6 2 0.6; transform: translateY(-3.125rem) translateZ(9.375rem);  }
 
-.TD:hover h3 { left: 15%;  top: 85.75rem;  text-align: center; }
+.TD:hover h3 { left: 15%;  top: 82.75rem;  font-size: 1.6rem;     text-align: center; }
 
-.TD:hover .despara { top: 3.25rem; font-size: 3.1rem;   scale: 0.7 1 1;  }
+.TD:hover .despara { top: 12.25rem; font-size: 1.3rem;    scale: 0.587 2 1;  }
 
+.TD:hover .cflst {  margin-top: -20px;  margin-left: -25px;   scale: 0.8 1.5 1;    }
 
 .TD:hover span{top: 12.875rem; }
 
+
+.TD:hover .dol {  left:10%;  font-size: 1.5rem; }   
+.TD:hover .dolsy { font-size: 1.1rem; margin-top: 3px;     }
+ .TD:hover .plus { width: 1.5rem; height: 1.5rem; font-size: 1rem;  margin-left: 30px; }
+
+
+
 /* ----------------------------------------HOVER 4----------------------------------------------------------------------------- */
 
+
+/* .MP{ margin-top: -140rem; } */
+
 .MP:hover   { 
-     height:900px; scale: 0.8 1.8; perspective: -43.75rem;
+      height:800px; scale: 1.5  1; perspective: -43.75rem;  margin-top: -5rem;
      transform: rotatex(74deg) translatey(10rem) translatez(5.688rem);
   }
 
 
-.MP:hover .pop4 {scale:0.8 1 0.4; transform: translateY(-5.313rem) translateZ(11.875rem);  }
+.MP:hover .pop4 {scale:0.8 3 0.4; transform: translateY(-5.313rem) translateZ(11.875rem);  }
 
-.MP:hover h3 { left: 10%;  top: 87.813rem;  text-align: center; }
+.MP:hover h3 { left: 10%;  top: 80.813rem;  font-size: 1.6rem;    text-align: center; }
 
-.MP:hover .despara { top: 6.25rem;  font-size: 3.1rem;   scale: 0.7 1 1;   }
+.MP:hover .despara { top: 14.25rem;  font-size: 1.2rem;   scale: 0.587 2 1;  }
 
 .MP:hover span{ top: 15.188rem; }
+.MP:hover .cflst {  margin-top: -80px;  margin-left: -25px;   scale: 0.8 1.5 1;    }
 
-.MP:hover .dol {  left:10%;  font-size: 2.5rem; }   
-/* .MP:hover .plus { left: 82%; font-size: 1rem; }    */
-.MP:hover .dolsy { font-size: 1.8rem; margin-top: 7px;     }
- .MP:hover .plus { width: 2rem; height: 2rem; font-size: 1.4rem; }
+.MP:hover .dol {  left:10%;  font-size: 1.5rem; }   
+.MP:hover .dolsy { font-size: 1.3rem; margin-top: -2px;     }
+ .MP:hover .plus { width: 1.5rem; height: 1.5rem; font-size: 1rem;  margin-left: 30px; }
 
 /* ------------------------------------------------------------------------------------------ */
 

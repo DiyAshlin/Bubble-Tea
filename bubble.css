@@ -1321,7 +1321,7 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
 .CF:hover img { scale:0.6 2 0.6;  transform: translateY(-3.125rem) translateZ(10rem);  }
   
-.CF:hover  .despara { top: 12.75rem; left:-47px; font-size: 1.2rem;   scale: 0.587 2 1;  }
+.CF:hover  .despara { top: 12.75rem; left:-47px; font-size: 1rem;   scale: 0.587 2 1;  }
 
 .CF:hover .cflst {  margin-top: 35px; margin-left: 5px;   }
 .CF:hover .dolsy { font-size: 1rem; margin-top: 3px; margin-left: -4px; }

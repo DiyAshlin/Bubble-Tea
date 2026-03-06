@@ -1214,14 +1214,14 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
   .hmcon1, .hmcon2 { width: 25.5rem; height: 16.2rem; top: 20%; left: 0;   }
 
-  .hmcon2 { top: 60%; left: 20%;            }
+  .hmcon2 { top: 60%; left: 20%;      }
 .hmwrap{  animation: none;  }
   .bub {  font-size: 5.2rem; }
 
   .bub2 {  font-size: 5rem; letter-spacing: -9px; color: #efd8d0; }
 
   .hmpara {  width: 85%;  font-size: 0.7rem;  line-height: 1.4; top: 5%; margin-left: 5px; }
-.hmp4{  font-size: 0.9rem;   color: #efd8d0;   left:11%; } 
+.hmp4{  font-size: 0.8rem;   color: #efd8d0;   left:11%; } 
 
   .hmbut {  width: 6.575rem; height: 2.8rem; font-size: 1rem; top: 10%; margin-left: 5px;}
 
@@ -1335,12 +1335,14 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 /* .CP{ margin-top: -60rem; } */
 
 
+  .CP h3 { font-size: 1.6rem;white-space: nowrap;}
+
  .CP:hover   { 
      height:800px; scale: 1.5  1; perspective: -43.75rem;   margin-top: -5rem;
      transform: rotatex(74deg) translatey(10rem) translatez(4.688rem);
   }
 
-.CP:hover h3 { left: 11%;  top: 82rem;  font-size: 1.6rem;    text-align: center; }
+.CP:hover h3 { left: 11%;  top: 82rem;  font-size: 1.4rem;    text-align: center; }
 
 .CF:hover .pop2 { scale:1.1 5 0.3; transform: translateY(-3.125rem) translateZ(9.375rem);  }
 
@@ -1385,6 +1387,8 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
 /* .MP{ margin-top: -140rem; } */
 
+  .MP h3 { font-size: 1.6rem;white-space: nowrap;}
+
 .MP:hover   { 
       height:800px; scale: 1.5  1; perspective: -43.75rem;  margin-top: -5rem;
      transform: rotatex(74deg) translatey(10rem) translatez(5.688rem);
@@ -1393,7 +1397,7 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
 .MP:hover .pop4 {scale:0.8 3 0.4; transform: translateY(-5.313rem) translateZ(11.875rem);  }
 
-.MP:hover h3 { left: 10%;  top: 80.813rem;  font-size: 1.6rem;    text-align: center; }
+.MP:hover h3 { left: 10%;  top: 80.813rem;  font-size: 1.4rem;    text-align: center; }
 
 .MP:hover .despara { top: 14.25rem;  font-size: 1.2rem;   scale: 0.587 2 1;  }
 

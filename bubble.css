@@ -1216,12 +1216,12 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
   .hmcon2 { top: 60%; left: 20%;            }
 .hmwrap{  animation: none;  }
-  .bub {  font-size: 5rem;  }
+  .bub {  font-size: 5.2rem; }
 
-  .bub2 { font-size: 5rem; letter-spacing: -11px; color: #efd8d0; }
+  .bub2 {  font-size: 5rem; letter-spacing: -9px; color: #efd8d0; }
 
   .hmpara {  width: 85%;  font-size: 0.8rem;  line-height: 1.4; top: 5%; margin-left: 5px; }
-.hmp4{  font-size: 1.1rem;   color: #efd8d0;   left:11%; } 
+.hmp4{  font-size: 0.9rem;   color: #efd8d0;   left:11%; } 
 
   .hmbut {  width: 6.575rem; height: 2.8rem; font-size: 1rem; top: 10%; margin-left: 5px;}
 
@@ -1232,15 +1232,15 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
   .abtcon1wrap{ animation: scale-in-abt  1s  ease-in-out 0s 1 normal both; }
 
   .abttit h2 {
-    font-size: 3rem; scale: 0.8;  top: -9.375rem; transform: translateX(20%);
+    font-size: 3.5rem; scale: 0.7;  top: -9.375rem; transform: translateX(-3%);
   }
 
-  .abtspli  {    left: 0; width: 15rem; height: 20.375rem; top: -6rem; font-size: 1rem;       }
-.abtli {  font-size: 3.5rem !important;  }
+  .abtspli  {    left: 0; width: 15rem; height: 20.375rem; top: -8rem; font-size: 1rem;       }
+.abtli {  font-size: 3rem !important;  }
 
-  .abtpara {  width: 12rem; height: 15rem; font-size: 1rem;   top: -5rem;   }
+  .abtpara {  width: 9.5rem; height: 15rem; font-size: 0.8rem;   top: -9rem;   }
 
-.abtcon2 {  width: 24rem; left: 28%; top: -15rem; scale: 0.5;     }
+.abtcon2 {  width: 24rem; left: 20%; top: -15rem; scale: 0.5;     }
 
   .ibx {
     width: 23rem; height: 17rem; position: relative; 
@@ -1265,7 +1265,7 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
   .prolist {  margin-top: -70%; text-align: center; scale: 0.8;  }
 
   .prolist li {
-   width: 17rem; margin: 1rem auto;   font-size: 1.2rem;
+   width: 17rem; margin: 1rem auto;   font-size: 1.1rem;
     padding: 1rem 1.5rem; border-radius: 5rem;
   }
 
@@ -1407,10 +1407,10 @@ h3{ position: relative; top: 73%;  font-size: 1.563rem; font-weight: bold;  }
 
   .bx { width: 38rem;  height: 15rem;  }
   .bx .brwtit { font-size: 1.5rem; top: 25%; text-align: center; }
-  .bx p { font-size: 1.1rem; top: 40%; }
+  .bx p { font-size: 1rem; top: 35%; }
 
   .brewicon { width: 0.2rem; height: 0.2rem;  margin: 0 auto; }
-   .brewicon .bwic {  font-size: 5rem;  top: -1rem; }
+   .brewicon .bwic {  font-size: 4rem;  top: -1rem; }
 
   /* --------------------------------------------------------------------------------- */
 

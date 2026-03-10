@@ -208,7 +208,7 @@ nav a{
      15%, 40%{ transform: translateX(-15vw)  translateY(-90vh) scale(1) rotate3d(-1, 1, 0, 0deg);} 
    
      40%, 60% { transform: translateX(-30vw) translateY(-15vh) rotate(35deg) scale(0.8);} 
-     70%, 100% { transform: translateX(8vw) translateY(187vh) rotate(-43deg) scale(1);} 
+     70%, 100% { transform: translateX(9vw) translateY(156vh) rotate(-43deg) scale(1);} 
     }
 
 
